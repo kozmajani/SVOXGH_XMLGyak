@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konferencia>
+	    <cim cim="Zoom_meeting_20210921"/>
+		<eloado>
+            <nev nev="Cicz Imre"/>
+            <adoszam adoszam="123456-1-11"/>
+            <lakcim irsz="3600" varos="Ozd" utca="Istvan kiraly utca" hsz="54"/>
+        </eloado>
+		<datum datum="2021/09/21" />
+		<helyszin helyszin="3515 Miskolc" />
+        <hallgatok>
+            <hallgato>
+                <nev nev="Kiss Jozsef"/>
+                <lakcim irsz="3515" varos="Miskolc" utca="Eper utca" hsz="E/4"/>
+            </hallgato>
+        </hallgatok>
+        <dramaturg id="tz5_6uz_1rt" nev="Bob" />
+        <operator id="oi5_er7_6zu" nev="Bobby" />
+</konferencia>

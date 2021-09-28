@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orarend>
+    <ora>
+        <targy id="00" nev="-"/>
+        <idopont>
+            <nap id="hetfo"/>
+            <tol tol="8"/>
+            <ig ig="10"/>
+        </idopont>
+        <helyszin helyszin="-" />
+        <oktato nev="-_-" />
+        <szak id="programervezo_informatikus" />
+    </ora>
+    <ora>
+        <targy id="GEMAK345" nev="Szakdolgozatkeszites_II_konzultacio"/>
+        <idopont>
+            <nap id="hetfo"/>
+            <tol tol="10"/>
+            <ig ig="12"/>
+        </idopont>
+        <helyszin helyszin="tanar_irodaja_123" />
+        <oktato nev="Dr_Korei_Attila" />
+        <szak id="programervezo_informatikus" />
+    </ora>
+    <ora>
+        <targy id="GEMAK123" nev="Adatkezeles_XML_ben_eloadas"/>
+        <idopont>
+            <nap id="kedd"/>
+            <tol tol="12"/>
+            <ig ig="14"/>
+        </idopont>
+        <helyszin helyszin="A1_I_Eloado" />
+        <oktato nev="Dr_Bednarik_Laszlo" />
+        <szak id="programervezo_informatikus" />
+    </ora>
+    <ora>
+        <targy id="GEMAK123" nev="Adatkezeles_XML_ben_gyakorlat"/>
+        <idopont>
+            <nap id="kedd"/>
+            <tol tol="14"/>
+            <ig ig="16"/>
+        </idopont>
+        <helyszin helyszin="Inf/103" />
+        <oktato nev="Dr_Bednarik_Laszlo" />
+        <szak id="programervezo_informatikus" />
+    </ora>
+    <ora>
+        <targy id="01" nev="-"/>
+        <idopont>
+            <nap id="szerda"/>
+            <tol tol="8"/>
+            <ig ig="16"/>
+        </idopont>
+        <helyszin helyszin="-" />
+        <oktato nev="-_-" />
+        <szak id="-" />
+    </ora>
+   <ora>
+        <targy id="02" nev="-"/>
+        <idopont>
+            <nap id="csutortok"/>
+            <tol tol="8"/>
+            <ig ig="16"/>
+        </idopont>
+        <helyszin helyszin="-" />
+        <oktato nev="-_-" />
+        <szak id="-" />
+    </ora>
+    <ora>
+        <targy id="01" nev="-"/>
+        <idopont>
+            <nap id="pentek"/>
+            <tol tol="8"/>
+            <ig ig="16"/>
+        </idopont>
+        <helyszin helyszin="-" />
+        <oktato nev="-_-" />
+        <szak id="-" />
+    </ora>
+
+</orarend>
