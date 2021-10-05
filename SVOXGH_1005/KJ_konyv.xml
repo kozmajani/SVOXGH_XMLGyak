@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE konyvek SYSTEM "KJ_konyv.dtd">
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KJ_konyv.xsd">
+
+
+<!--<konyvek>-->
+	<konyv id="id01">
+		<cim>Informatikarol szolo konyv 1</cim>
+		<ev>2014</ev>
+		<kiado>&lt;ASD&gt; Konyvshop</kiado>
+		<szerzo>Lakatos Arnold Botond</szerzo>
+	</konyv>
+	
+	<konyv id="id02">
+		<cim>Info konyv 2</cim>
+		<ev>2020</ev>
+		<kiado>Konyves könyvek</kiado>
+		<szerzo>Bob Bobby</szerzo>
+		<szerzo>Tommy Vercetti</szerzo>
+	</konyv>
+	
+	<konyv id="id03">
+		<cim>Inforol okosba 3</cim>
+		<ev>2008</ev>
+		<kiado>Libri kiadó</kiado>
+		<szerzo>Kiss Tibor</szerzo>
+		<absztrakt>Leiras..</absztrakt>
+	</konyv>
+
+</konyvek>
