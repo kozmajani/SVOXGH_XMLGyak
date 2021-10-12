@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak>
+	<nevjegykartya>
+		<nev>Kozma János</nev>
+		<ceg>
+			<nev>A cég</nev>
+			<cim>
+				<iranyitoszam>3600</iranyitoszam>
+				<varos>Ózd</varos>
+				<utca>Lakatos lakat utca</utca>
+				<hazszam>45/A</hazszam>
+			</cim>
+			<telefonszam>06301114000</telefonszam>
+			<weblap>https://github.com/kozmajani/SVOXGH_XMLGyak</weblap>
+		</ceg>
+		<beosztas>Vezető</beosztas>
+		<telefonszam>06302225000</telefonszam>
+		<email>kozmosz@email.com</email>
+	</nevjegykartya>
+	
+	<nevjegykartya>
+		<nev>Cicz Imre</nev>
+		<ceg>
+			<nev>A második cég</nev>
+			<cim>
+				<iranyitoszam>3515</iranyitoszam>
+				<varos>Miskolc</varos>
+				<utca>Lölölö főút</utca>
+				<hazszam>4</hazszam>
+			</cim>
+			<telefonszam>06303334000</telefonszam>
+			<weblap>https://github.com/kozmajani/SVOXGH_XMLGyak</weblap>
+		</ceg>
+		<beosztas>Vezető</beosztas>
+		<telefonszam>06304445000</telefonszam>
+		<email>ciczi@email.com</email>
+	</nevjegykartya>
+</nevjegykartyak>

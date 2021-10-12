@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE könyvek SYSTEM "KJ_konyv1.xsd">
+
+<könyvek>
+	<könyv isbn="k01">
+		<cím>Ez egy cím</cím>
+		<szerző>Szerző Szabolcs</szerző>
+		<szereplő id="01">
+			<név>Neves Nándor</név>
+			<barátja>Barátos Barna</barátja>
+			<született>1990.01.10.</született>
+			<jellemzés>Jó fej. Ennyi.</jellemzés>
+		</szereplő>
+		<szereplő id="02">
+			<név>Barátos Barna</név>
+			<született>1991.07.25.</született>
+			<jellemzés>Nándortól jobb fej.</jellemzés>
+		</szereplő>
+	</könyv>
+</könyvek>

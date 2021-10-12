@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orarend>
+    <ora>
+        <targy id="GEMAK345" tipus="konzultacio"/>
+        <targy>Szakdolgozatkeszites II </targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>Tanár Úr irodája</helyszin>
+        <oktato>Dr. Körei Attila</oktato>
+        <szak>Programtervező informatikus</szak>>
+    </ora>
+    <ora>
+        <targy id="GEMAK123" tipus="eloadas"/>
+        <targy>Adatkezeles XML-ben eloadas</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>I. Előadó</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>>
+    </ora>
+    <ora>
+        <targy id="GEMAK789" tipus="gyakorlat"/>
+        <targy>Adatkezeles XML-ben gyakorlat</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>Inf/103</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>>
+    </ora>
+</orarend>
