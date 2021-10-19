@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE szemelyek SYSTEM "szemelyekSVOXGH.dtd">
+
+<szemelyek>
+	<szemely id="k1">
+		<nev>Kozma János</nev>
+		<kor>22</kor>
+		<varos>Ózd</varos>
+	</szemely>
+	
+	<szemely id="k2">
+		<nev>Bab Leves</nev>
+		<kor>23</kor>
+		<varos>Miskolc</varos>
+	</szemely>
+	
+	<szemely id="k3">
+		<nev>Hát Izsák</nev>
+		<kor>34</kor>
+		<varos>Kecskemét</varos>
+	</szemely>
+</szemelyek>
