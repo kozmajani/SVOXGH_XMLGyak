@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type = "text/xsl" href = "students.xsl"?>
+
+<class>
+
+	<student id ="01">
+		<vezeteknev>Kozma</vezeteknev>
+		<keresztnev>János</keresztnev>
+		<becenev>Jani</becenev>
+		<kor>22</kor>
+		<fizetes>80000</fizetes>
+	</student>
+		<student id ="02">
+		<vezeteknev>Lakatos</vezeteknev>
+		<keresztnev>Márió</keresztnev>
+		<becenev>Márió</becenev>
+		<kor>21</kor>
+		<fizetes>58000</fizetes>
+	</student>
+		<student id ="03">
+		<vezeteknev>Hajdú</vezeteknev>
+		<keresztnev>István</keresztnev>
+		<becenev>Isti</becenev>
+		<kor>23</kor>
+		<fizetes>85000</fizetes>
+	</student>
+
+</class>
