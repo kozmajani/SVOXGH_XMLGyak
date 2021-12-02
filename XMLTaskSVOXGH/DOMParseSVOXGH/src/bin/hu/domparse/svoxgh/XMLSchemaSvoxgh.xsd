@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="cipo_rendeles">
+        
+        <!-- Az XML dokumentum felepitese -->
+        
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cipo" type="cipoTipus" maxOccurs="unbounded" />
+                <xs:element name="rendeles" type="rendelesTipus" maxOccurs="unbounded" />
+                <xs:element name="vasarlo" type="vasarloTipus" maxOccurs="unbounded" />
+                <xs:element name="fsz" type="fszTipus" maxOccurs="unbounded" />
+                <xs:element name="szamla" type="szamlaTipus" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+        
+        <!-- Kulcsok -->
+        
+        <xs:key name="cipo_kulcs">
+            <xs:selector xpath="cipo" />
+            <xs:field xpath="@C_id"></xs:field>
+        </xs:key>
+        <xs:key name="rendeles_kulcs">
+            <xs:selector xpath="rendeles" />
+            <xs:field xpath="@R_id"></xs:field>
+        </xs:key>
+        <xs:key name="vasarlo_kulcs">
+            <xs:selector xpath="vasarlo" />
+            <xs:field xpath="@V_id"></xs:field>
+        </xs:key>
+        <xs:key name="fsz_kulcs">
+            <xs:selector xpath="fsz" />
+            <xs:field xpath="@Fsz_id"></xs:field>
+        </xs:key>
+        <xs:key name="szamla_kulcs">
+            <xs:selector xpath="szamla"></xs:selector>
+            <xs:field xpath="@SZ_id"></xs:field>
+        </xs:key>
+        
+        <!-- idegen kulcsok -->
+        
+        <xs:keyref refer="rendeles_kulcs" name="cipo_rendeles_idegen_kulcs">
+            <xs:selector xpath="cipo"></xs:selector>
+            <xs:field xpath="@R_id_c"></xs:field>
+        </xs:keyref>
+        <xs:keyref refer="rendeles_kulcs" name="vasarlo_rendeles_idegen_kulcs">
+            <xs:selector xpath="vasarlo"></xs:selector>
+            <xs:field xpath="@R_id_v"></xs:field>
+        </xs:keyref>
+        <xs:keyref refer="rendeles_kulcs" name="fsz_rendeles_idegen_kulcs">
+            <xs:selector xpath="fsz"></xs:selector>
+            <xs:field xpath="@R_id_fsz"></xs:field>
+        </xs:keyref>
+        <xs:keyref refer="rendeles_kulcs" name="szamla_rendeles_idegen_kulcs">
+            <xs:selector xpath="szamla"></xs:selector>
+            <xs:field xpath="@R_id_sz"></xs:field>
+        </xs:keyref>
+        
+        <xs:unique name="unique_szamla">
+            <xs:selector xpath="szamla"></xs:selector>
+            <xs:field xpath="@R_id_sz"></xs:field>
+        </xs:unique>
+    </xs:element>
+    
+    <!-- Tipusok -->
+    <!-- cipo tipus -->
+    
+    <xs:complexType name="cipoTipus">
+        <xs:sequence>
+        	<xs:element type="xs:string" name="marka"/>
+            <xs:element type="xs:string" name="cipo_neve"/>
+            <xs:element type="xs:short" name="ar"/>
+            <xs:element type="xs:string" name="szin"/>
+            <xs:element type="xs:string" name="keszlet"/>
+        </xs:sequence>
+        <xs:attribute type="xs:integer" name="cipo_id" use="required"/>
+        <xs:attribute type="xs:integer" name="R_id_c" use="required"/>
+    </xs:complexType>
+    
+    <!-- rendeles tipus -->
+    
+    <xs:complexType name="rendelesTipus">
+        <xs:sequence>
+            <xs:element type="xs:string" name="kedvezmeny"/>
+        </xs:sequence>
+        <xs:attribute type="xs:integer" name="R_id" use="required"/>
+    </xs:complexType>
+    
+    <!-- vasarlo tipus -->
+    
+    <xs:complexType name="vasarloTipus">
+        <xs:sequence>
+            <xs:element type="xs:string" name="nev"/>
+            <xs:element type="xs:string" name="telefonszam"/>
+            <xs:element name="cim">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element type="xs:string" name="irszam"/>
+                        <xs:element type="xs:string" name="telepules"/>
+                        <xs:element type="xs:string" name="utca"/>
+                        <xs:element type="xs:string" name="hazszam"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:integer" name="V_id" use="required"/>
+        <xs:attribute type="xs:integer" name="R_id_v" use="required"/>
+    </xs:complexType>
+    
+    <!-- fsz tipus -->
+    
+    <xs:complexType name="fszTipus">
+        <xs:sequence>
+            <xs:element type="xs:string" name="nev"/>
+        </xs:sequence>
+        <xs:attribute type="xs:integer" name="fsz_id" use="required"/>
+        <xs:attribute type="xs:integer" name="R_id_fsz" use="required"/>
+    </xs:complexType>
+    
+    <!-- szamla tipus -->
+    
+    <xs:complexType name="szamlaTipus">
+        <xs:sequence>
+            <xs:element type="xs:string" name="mennyiseg"/>
+            <xs:element type="xs:string" name="osszeg"/>
+            <xs:element name="datum">
+              <xs:simpleType>                                                                  
+                    <xs:restriction base="xs:gYear">                                                  
+                        <xs:minInclusive value="2000"/>                                                  
+                        <xs:maxInclusive value="2021"/>                                                   
+                    </xs:restriction>                                                             
+                </xs:simpleType>            
+            </xs:element>     
+        </xs:sequence>
+        <xs:attribute type="xs:integer" name="Vezeto_id" use="required"/>
+        <xs:attribute type="xs:integer" name="Adoszamev" use="required"/>
+    </xs:complexType>
+    
+</xs:schema>

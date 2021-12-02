@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cipo_rendeles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:XMLSchemaSvoxgh.xsd">
+	
+	<!-- cipok -->
+	
+	<cipo C_id="01" R_id_c="123456789101">
+		<marka>Nike</marka>
+		<cipo_neve>Air Force</cipo_neve>
+		<szin>Fehér</szin>
+		<ar>29000</ar>
+		<keszlet>200</keszlet>
+	</cipo>
+	<cipo C_id="02" R_id_c="123456789102">
+		<marka>Adidas</marka>
+		<cipo_neve>ZX 2K BOOST</cipo_neve>
+		<szin>Piros</szin>
+		<ar>25500</ar>
+		<keszlet>100</keszlet>
+	</cipo>
+	<cipo C_id="03" R_id_c="123456789103">
+		<marka>Vans</marka>
+		<cipo_neve>UltraRange EXO Hi</cipo_neve>
+		<szin>Fekete</szin>
+		<ar>35000</ar>
+		<keszlet>45</keszlet>
+	</cipo>
+	<cipo C_id="04" R_id_c="123456789104">
+		<marka>Nike</marka>
+		<cipo_neve>Air Jordan Retro Mid</cipo_neve>
+		<szin>Fekete</szin>
+		<ar>29000</ar>
+		<keszlet>20</keszlet>
+	</cipo>
+	
+	<!-- cipok  vege -->
+	<!-- rendelesek -->
+	
+	<rendeles R_id="123456789101">
+		<kedvezmeny>2000</kedvezmeny>
+	</rendeles>
+	<rendeles R_id="123456789102">
+		<kedvezmeny>3000</kedvezmeny>
+	</rendeles>
+	<rendeles R_id="123456789103">
+		<kedvezmeny>0</kedvezmeny>
+	</rendeles>
+	<rendeles R_id="123456789104">
+		<kedvezmeny>1500</kedvezmeny>
+	</rendeles>
+	
+	<!-- rendelesek vege -->
+	<!-- vasarlok -->
+	
+	<vasarlo R_id_v="123456789101" V_id="1">
+		<nev>Hajdu Tibor</nev>
+		<telefonszam>06701234567</telefonszam>
+		<cim>
+			<irszam>4000</irszam>
+			<telepules>Debrecen</telepules>
+			<utca>Dobo Istvan utca</utca>
+			<hazszam>45</hazszam>
+		</cim>
+	</vasarlo>
+	<vasarlo R_id_v="123456789102" V_id="2">
+		<nev>Kiss Lajos</nev>
+		<telefonszam>06301234567</telefonszam>
+		<cim>
+			<irszam>3600</irszam>
+			<telepules>Ozd</telepules>
+			<utca>Lakat utca</utca>
+			<hazszam>10</hazszam>
+		</cim>
+	</vasarlo>
+	<vasarlo R_id_v="123456789103" V_id="3">
+		<nev>Bodnar Peter</nev>
+		<telefonszam>06201234567</telefonszam>
+		<cim>
+			<irszam>2000</irszam>
+			<telepules>Szeged</telepules>
+			<utca>Nadas utca</utca>
+			<hazszam>2</hazszam>
+		</cim>
+	</vasarlo>
+	<vasarlo R_id_v="123456789104" V_id="4">
+		<nev>Nagy Lujza</nev>
+		<telefonszam>06301234666</telefonszam>
+		<cim>
+			<irszam>3500</irszam>
+			<telepules>Miskolc</telepules>
+			<utca>Lelemenyes utca</utca>
+			<hazszam>38</hazszam>
+		</cim>
+	</vasarlo>
+	
+	<!-- vasarlok vege -->
+	<!-- futarszolgalatok -->
+	
+	<futarszolgalat Fsz_id="11" R_id_fsz="123456789101">
+		<nev>Ups Futarszolgalat</nev>
+	</futarszolgalat>
+	<futarszolgalat Fsz_id="12" R_id_fsz="123456789102">
+		<nev>GLS Futarszolgalat</nev>
+	</futarszolgalat>
+	<futarszolgalat Fsz_id="13" R_id_fsz="123456789103">
+		<nev>ExpressOne Futarszolgalat</nev>
+	</futarszolgalat>
+	<futarszolgalat Fsz_id="14" R_id_fsz="123456789104">
+		<nev>FOXPOST Futarszolgalat</nev>
+	</futarszolgalat>
+	<!-- futarszolgalatok vege -->
+	<!-- szamlak -->
+	
+	<szamla R_id_sz="123456789101" SZ_id="001">
+		<osszeg>50000</osszeg>
+		<mennyiseg>2</mennyiseg>
+		<datum>2021.10.02.</datum>
+	</szamla>
+	<szamla R_id_sz="123456789102" SZ_id="002">
+		<osszeg>19500</osszeg>
+		<mennyiseg>1</mennyiseg>
+		<datum>2021.09.20.</datum>
+	</szamla>
+	<szamla R_id_sz="123456789103" SZ_id="0033">
+		<osszeg>32000</osszeg>
+		<mennyiseg>1</mennyiseg>
+		<datum>2021.11.11.</datum>
+	</szamla>
+	<szamla R_id_sz="123456789104" SZ_id="004">
+		<osszeg>76500</osszeg>
+		<mennyiseg>3</mennyiseg>
+		<datum>2021.08.23.</datum>
+	</szamla>
+	
+	<!-- szamlak vege -->
+	
+</cipo_rendeles>
